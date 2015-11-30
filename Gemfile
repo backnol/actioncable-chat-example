@@ -1,10 +1,13 @@
 ruby "2.2.2"
 source 'https://rubygems.org'
-
 gem 'rails', github: "rails/rails"
 gem 'sprockets-rails', github: "rails/sprockets-rails"
 gem 'arel', github: "rails/arel"
 gem 'actioncable', github: 'rails/actioncable'
+
+gem 'rails_stdout_logging'
+gem 'rails_serve_static_assets'
+gem 'rails_12factor', group: :production
 
 gem 'pg'
 gem 'puma'
