@@ -1,6 +1,6 @@
 production: &production
   :url: <%= ENV["REDIS_URL"] %>
-  :port: 6379
+
   :timeout: 1
 
 local: &local
